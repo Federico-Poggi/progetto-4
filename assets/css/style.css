@@ -114,9 +114,53 @@ hr{
 /* TABELLE */
 
 #css-usage{
-
+    table-layout: fixed;
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid;
+    border-bottom: 2px solid blue;
 }
 
+#css-usage tr,td{
+    border-collapse: collapse;
+    border: 1px solid rgb(254, 254, 254);
+    text-align: center;
+    height: 2.5em;
+}
+
+td{
+    vertical-align: middle;
+    
+}
+
+.td{
+    background-color: rgba(180, 178, 178, 0.197);
+}
+
+#head th{
+    background-color: rgb(83, 83, 245);
+    vertical-align: bottom;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.comment{
+    padding: 2em;
+}
+
+.comment a{
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+    font-weight: bold;
+}
+
+#video{
+    height: 15em;
+    border: 1px solid white;
+    border-radius: 10%;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
