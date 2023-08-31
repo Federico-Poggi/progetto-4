@@ -59,9 +59,13 @@ body{
     align-items: center;
     padding: 20px;
     font-family: 'Lilita One', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
 }
+
+/* main article */
 
 h1{
     display: flex;
@@ -82,6 +86,8 @@ h1{
     align-items: flex-start;
     flex-direction: column;
     padding-left: 3em;
+    line-height: 1.5em;
+    
 }
 
 
@@ -99,9 +105,17 @@ hr{
     visibility: hidden;
 }
 
-/* ELEMENTI NEL MAIN - ARTICLE */
+#css{
+    padding: 30px 0;
+}
+
+
 
 /* TABELLE */
+
+#css-usage{
+
+}
 
 /* FORM */
 
